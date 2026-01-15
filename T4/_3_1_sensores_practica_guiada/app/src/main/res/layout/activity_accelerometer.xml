@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:padding="16dp">
+
+	<TextView
+		android:id="@+id/tvTitle"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="32dp"
+		android:text="🎯 Acelerómetro"
+		android:textSize="28sp"
+		android:textStyle="bold"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<com.google.android.material.card.MaterialCardView
+		android:id="@+id/cardAcceleration"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="32dp"
+		app:cardCornerRadius="16dp"
+		app:cardElevation="8dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/tvTitle">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:padding="24dp">
+
+			<TextView
+				android:id="@+id/tvXAxis"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="X: 0.00 m/s²"
+				android:textColor="#E53935"
+				android:textSize="20sp" />
+
+			<TextView
+				android:id="@+id/tvYAxis"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="12dp"
+				android:text="Y: 0.00 m/s²"
+				android:textColor="#43A047"
+				android:textSize="20sp" />
+
+			<TextView
+				android:id="@+id/tvZAxis"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="12dp"
+				android:text="Z: 0.00 m/s²"
+				android:textColor="#1E88E5"
+				android:textSize="20sp" />
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:layout_marginVertical="16dp"
+				android:background="#E0E0E0" />
+
+			<TextView
+				android:id="@+id/tvMagnitude"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:text="Magnitud: 0.00 m/s²"
+				android:textSize="22sp"
+				android:textStyle="bold" />
+
+		</LinearLayout>
+
+	</com.google.android.material.card.MaterialCardView>
+
+	<TextView
+		android:id="@+id/tvShakeStatus"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="32dp"
+		android:text="Agita el dispositivo"
+		android:textColor="#757575"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/cardAcceleration" />
+
+	<TextView
+		android:id="@+id/tvShakeCount"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="16dp"
+		android:text="Sacudidas: 0"
+		android:textSize="24sp"
+		android:textStyle="bold"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/tvShakeStatus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

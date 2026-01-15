@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Toolbar Tutorial</string>
+    <string name="main_content">Contenido de la Activity</string>
+    <string name="main_screen_title">Pantalla Principal</string>
+    
+    <!-- Acciones del menú -->
+    <string name="action_search">Buscar</string>
+    <string name="action_favorite">Favoritos</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_about">Acerca de</string>
+</resources>

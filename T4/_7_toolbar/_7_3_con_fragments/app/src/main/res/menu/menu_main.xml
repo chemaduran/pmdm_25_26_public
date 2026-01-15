@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Menú global para la Toolbar.
+    Se muestra en todos los Fragments a través de MainActivity.
+    Solo contiene opciones del menú overflow (tres puntos).
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Acción de configuración - en menú overflow (tres puntos) -->
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <!-- Acción de información - en menú overflow (tres puntos) -->
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+
+</menu>

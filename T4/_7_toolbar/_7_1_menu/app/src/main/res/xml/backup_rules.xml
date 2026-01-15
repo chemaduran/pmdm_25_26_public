@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+       Use <include> and <exclude> to control what is backed up.
+       Both have the path attribute which specifies a relative path from 
+       the app's private data directory.
+    -->
+</full-backup-content>

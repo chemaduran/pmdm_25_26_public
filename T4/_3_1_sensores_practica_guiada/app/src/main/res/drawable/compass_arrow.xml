@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- Círculo exterior -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,120m-110,0a110,110 0,1,1 220,0a110,110 0,1,1 -220,0"/>
+
+    <!-- Círculo interior -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:pathData="M120,120m-100,0a100,100 0,1,1 200,0a100,100 0,1,1 -200,0"/>
+
+    <!-- Flecha Norte (Roja) -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M120,30 L105,120 L120,110 L135,120 Z"/>
+
+    <!-- Flecha Sur (Blanca con borde) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#9E9E9E"
+        android:strokeWidth="1"
+        android:pathData="M120,210 L105,120 L120,130 L135,120 Z"/>
+
+    <!-- Centro -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M120,120m-8,0a8,8 0,1,1 16,0a8,8 0,1,1 -16,0"/>
+
+</vector>
+

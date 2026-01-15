@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ToolbarTutorial"
+        tools:targetApi="31">
+        
+        <!-- 
+            Iteración 4: Single Activity Architecture
+            Solo necesitamos MainActivity, los Fragments se gestionan
+            a través de Navigation Component
+        -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 
+            Las siguientes Activities se mantienen por referencia de la Iteración 3
+            pero ya no se usan en esta arquitectura
+        -->
+        <!-- <activity android:name=".DetailActivity" /> -->
+        <!-- <activity android:name=".SettingsActivity" /> -->
+        
+    </application>
+
+</manifest>

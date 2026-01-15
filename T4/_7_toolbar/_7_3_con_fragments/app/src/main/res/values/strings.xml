@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Toolbar Tutorial</string>
+
+    <!-- Acciones del menú (overflow - tres puntos) -->
+    <string name="action_settings">Configuración</string>
+    <string name="action_about">Acerca de</string>
+    
+    <!-- Títulos de pantallas -->
+    <string name="home_screen_title">Inicio</string>
+    <string name="detail_screen_title">Detalle</string>
+    <string name="settings_screen_title">Configuración</string>
+
+    <!-- Contenido de pantallas -->
+    <string name="detail_screen_content">Pantalla de Detalle</string>
+    <string name="settings_screen_content">Pantalla de Configuración</string>
+    
+    <!-- Botones de navegación -->
+    <string name="btn_view_detail_item">Ver Detalle del Item 42</string>
+    <string name="btn_go_to_settings">Ir a Configuración</string>
+    
+    <!-- Formato de datos -->
+    <string name="item_id_format">ID del Item: %d</string>
+</resources>

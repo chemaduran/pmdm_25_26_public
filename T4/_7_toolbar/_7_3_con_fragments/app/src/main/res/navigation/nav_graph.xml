@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <!-- Fragment de inicio -->
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.toolbartutorial.HomeFragment"
+        android:label="@string/home_screen_title"
+        tools:layout="@layout/fragment_home">
+        
+        <!-- Acción para navegar al detalle -->
+        <action
+            android:id="@+id/action_home_to_detail"
+            app:destination="@id/detailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+            
+        <!-- Acción para navegar a configuración -->
+        <action
+            android:id="@+id/action_home_to_settings"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <!-- Fragment de detalle -->
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.toolbartutorial.DetailFragment"
+        android:label="@string/detail_screen_title"
+        tools:layout="@layout/fragment_detail">
+        
+        <!-- Argumento que recibe el fragment -->
+        <argument
+            android:name="itemId"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+
+    <!-- Fragment de configuración -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.toolbartutorial.SettingsFragment"
+        android:label="@string/settings_screen_title"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

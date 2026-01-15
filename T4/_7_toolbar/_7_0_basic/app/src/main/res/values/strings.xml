@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Toolbar Tutorial</string>
+    <string name="main_content">Contenido de la Activity</string>
+    <string name="main_screen_title">Pantalla Principal</string>
+</resources>

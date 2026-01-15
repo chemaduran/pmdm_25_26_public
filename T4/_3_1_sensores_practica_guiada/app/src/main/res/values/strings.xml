@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SensoresPracticaGuiada</string>
+    <string name="compass_desc">Brújula</string>
+</resources>
