@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContactsApp</string>
+    <string name="login">Inicio de sesión</string>
+    <string name="email">Correo electrónico</string>
+    <string name="pin">PIN</string>
+    <string name="login_button">Acceder</string>
+    <string name="contact_name">Introduzca un nombre</string>
+    <string name="find_contact">Buscar contacto</string>
+    <string name="filter">Filtrar</string>
+    <string name="error_credentials">Credenciales inválidas</string>
+    <string name="error_empty">Por favor rellene todos los campos</string>
+    <string name="error_max_attempts">Máximo de intentos alcanzado. Botón deshabilitado.</string>
+    <string name="contact_stats">Estadísticas de Contactos</string>
+    <string name="total_contacts">Total de contactos: %d</string>
+    <string name="contacts_starting_vowel">Contactos que empiezan por vocal: %d</string>
+    <string name="shortest_contact">Nombre(s) más corto(s): %s</string>
+    <string name="contact_found">¡Contacto encontrado!</string>
+    <string name="contact_not_found">Contacto no encontrado</string>
+    <string name="matches_found">Coincidencias encontradas: %d</string>
+    <string name="no_matches">No se encontraron coincidencias</string>
+    <string name="error_empty_name">Por favor ingrese un nombre</string>
+</resources>

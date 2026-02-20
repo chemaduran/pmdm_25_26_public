@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContactsApp</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="pin">PIN</string>
+    <string name="login_button">Login</string>
+    <string name="contact_name">Type a name</string>
+    <string name="find_contact">Find contact</string>
+    <string name="filter">Filter</string>
+    <string name="error_credentials">Invalid credentials</string>
+    <string name="error_empty">Please fill all fields</string>
+    <string name="error_max_attempts">Maximum attempts reached. Button disabled.</string>
+    <string name="contact_stats">Contact Statistics</string>
+    <string name="total_contacts">Total contacts: %d</string>
+    <string name="contacts_starting_vowel">Contacts starting with vowel: %d</string>
+    <string name="shortest_contact">Shortest name(s): %s</string>
+    <string name="contact_found">Contact found!</string>
+    <string name="contact_not_found">Contact not found</string>
+    <string name="matches_found">Matches found: %d</string>
+    <string name="no_matches">No matches found</string>
+    <string name="error_empty_name">Please enter a name</string>
+</resources>
